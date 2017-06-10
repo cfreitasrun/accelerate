@@ -1,0 +1,189 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Connie Freitas
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+.about-hero-image {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead h1 {
+    float: left;
+    font-size: 20px;
+    margin: 2px 0 0 0;
+    text-transform: uppercase;
+}
+
+#masthead nav ul li {
+  float: left;
+  margin: -20px 10px;
+}
+
+
+/* blog post on homepage */
+
+.recent-posts {
+  overflow: hidden;
+}
+
+.blog-post {
+  width: 50%;
+}
+
+.blog-post h4 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.blog-post h2 {
+  font-size: 700 24px;
+  font-family: 'Monserrat';
+  font-weight: bold;
+  margin-top: 36px 0;
+}
+
+.blog-post .read-more-link {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+/* Case Studies */
+
+article.case-study {
+  margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+  float: left;
+  width: 312px;
+  margin: 0 40px 0 0;
+}
+
+div .case-study-images {
+  float: left;
+  margin-top: 10px;
+  width: 600px;
+}
+
+div .case-study-images img {
+  margin-bottom: 80px;
+  border: 1px solid #dddddd;
+}
+
+small {
+  margin: -20px 0 0 0;
+}
+
+h5 {
+  color: black;
+  font-size: 16px;
+}
+
+h6 {
+  color: black;
+  font-size: 20px;
+  font-weight:500;
+  margin-top: -15px;
+}
+
+div .site-content h4 {
+  text-align: center;
+  margin-top: -30px;
+  text-transform: uppercase;
+}
+
+ul .homepage-featured-work {
+    display: inline-block;
+    list-style: none;
+}
+
+div li {
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  padding: 30px 5px 0px 5px;
+}
+
+li h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+/* Form */
+div .nf-field-label label{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.contact .site-content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.ninja-forms-field.nf-element {
+  float: right;
+}
+
+.nf-field-element input, .nf-field-element select, .nf-field-element textarea {
+  padding: 16px 100px;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"]{
+  background-color: #45ac9d;
+}
+
+input[type="button" i] {
+  color: white;
+  font-weight: bold;
+}
+
+/* page about */
+
+span {
+  color: #45ac9d;
+}
+
+.about_p {
+  font-size: 32px;
+  color: #fff;
+}
