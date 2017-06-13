@@ -32,17 +32,9 @@ get_header(); ?>
 					</aside>
 
 					<div class="case-study-images">
-						<?php if($image_1) { ?>
-							<img src="<?php echo $image_1; ?>" />
-							<?php } ?>
-
-						<?php if($image_2) { ?>
-							<img src="<?php echo $image_2; ?>" />
-							<?php } ?>
-
-							<?php if($image_3) { ?>
-							<img src="<?php echo $image_3; ?>" />
-								<?php } ?>
+							<?php wp_get_attachment_image($image_1, $size); ?>
+							<?php wp_get_attachment_image($image_1, $size); ?>
+							<?php wp_get_attachment_image($image_1, $size); ?>
 					</div>
 
 			 				</article>
