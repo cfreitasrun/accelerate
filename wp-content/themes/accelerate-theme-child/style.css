@@ -17,16 +17,15 @@
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
-.about-hero-image {
+div .about-hero {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    width: 100%;
+    height: 300px;
+    background-position: bottom;
 }
 
 img {
   max-width: 100%;
-  height: auto;
   vertical-align: middle;
-  border: 0;
 }
 
 
@@ -187,12 +186,39 @@ input[type="button" i] {
 }
 
 /* page about */
+div .site-content {
+  width: 100%;
+}
 
 span {
   color: #45ac9d;
 }
 
-.about_p {
-  font-size: 32px;
-  color: #fff;
+.about-hero h2 {
+  color: white;
+  text-align: center;
+}
+
+.services-blurb {
+  text-align: center;
+  margin: 50px;
+}
+li .about-services .individual-about-service {
+  width: 50%;
+}
+
+.about-image {
+  float: left;
+  position: relative;
+}
+
+.about-description a p{
+  float: left;
+  text-align: left;
+  position: absolute;
+  clear: both;
+}
+
+div .contact-button h2 {
+  width: 70%;
 }
