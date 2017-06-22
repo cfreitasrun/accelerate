@@ -203,20 +203,27 @@ span {
   text-align: center;
   margin: 50px;
 }
-li .about-services .individual-about-service {
-  width: 50%;
+
+ul .about-services {
+  width: 60%;
 }
 
 .about-image {
   float: left;
-  position: relative;
+  width: 30%;
+  margin-right: 5%;
 }
 
 .about-description a p{
   float: left;
   text-align: left;
-  position: absolute;
-  clear: both;
+  width: 65%;
+}
+
+.individual-about-service:nth-child(even) .about-image {
+  float: right;
+  margin-left: 5%;
+  margin-right: 0;
 }
 
 div .contact-button h2 {
