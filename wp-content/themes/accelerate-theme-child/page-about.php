@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <section class="about-page">
-	<div class="site-content">
+
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='about-hero'>
 				<h2><span>Accelerate</span> is a strategy and marketing agency <br>
@@ -19,7 +19,7 @@ get_header(); ?>
 				making their customers smile.</h2>
 			</div>
 		<?php endwhile; // end of the loop. ?>
-	</div><!-- .container -->
+
 </section><!-- .home-page -->
 
 
@@ -38,7 +38,7 @@ get_header(); ?>
 										$size = "medium";
 						?>
 
-						<li class="individual-about-service">
+						<li class="individual-about-service clearfix">
 					    <figure class="about-image">
 					       <?php echo wp_get_attachment_image($image_1, $size); ?>
 					    </figure>
@@ -60,7 +60,7 @@ get_header(); ?>
 			<div class="site-content">
 				<?php while ( have_posts() ) : the_post(); ?>
 					<div class='contact-button'>
-						<h2>Interested in working at all?</h2>
+						<h2>Interested in working with us?</h2>
 						<a class="button" href="<?php echo home_url(); ?>/blog">Contact Us</a>
 					</div>
 				<?php endwhile; // end of the loop. ?>

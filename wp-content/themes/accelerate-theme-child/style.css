@@ -19,7 +19,7 @@
 
 div .about-hero {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    height: 300px;
+    height: 450px;
     background-position: bottom;
 }
 
@@ -37,18 +37,16 @@ img {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-#masthead h1 {
-    float: left;
-    font-size: 20px;
-    margin: 2px 0 0 0;
-    text-transform: uppercase;
+div.menu-pri-container ul{
+
 }
 
-#masthead nav ul li {
-  float: left;
-  margin: -20px 10px;
+div.menu-pri-container li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
 }
-
 
 /* blog post on homepage */
 
@@ -130,20 +128,24 @@ div .site-content h4 {
     text-transform: capitalize;
 }
 
-ul .homepage-featured-work {
-    display: inline-block;
+ul.homepage-featured-work {
+    display: inline-flex;
     list-style: none;
     margin-top: 10px;
+}
+
+li.individual-featured-work {
+  text-align: center;
 }
 
 Ul, ol {
   margin-bottom: 120px;
 }
 
-div li {
+/*div li {
   display: inline-block;
   text-align: center;
-}
+}*/
 
 img {
   padding: 30px 5px 0px 5px;
@@ -188,18 +190,30 @@ input[type="button" i] {
 /* page about */
 div .site-content {
   width: 100%;
+  max-width: 960px;
 }
 
 span {
   color: #45ac9d;
+  font-weight: bold;
 }
 
-.about-hero h2 {
+div.about-hero h2 {
   color: white;
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 50px;
+  padding-top: 20px;
   text-align: center;
 }
 
+div.services-blurb h5 {
+  font-size: 22px;
+}
+
 .services-blurb {
+  font-size: 22px;
   text-align: center;
   margin: 50px;
 }
@@ -208,17 +222,26 @@ ul .about-services {
   width: 60%;
 }
 
+ul.about-services {
+  list-style-type: none;
+}
+
 .about-image {
   float: left;
   width: 30%;
   margin-right: 5%;
 }
 
-.about-description a p{
+.about-description {
   float: left;
   text-align: left;
   width: 65%;
 }
+
+li.individual-about-service {
+  margin-top: 50px;
+}
+
 
 .individual-about-service:nth-child(even) .about-image {
   float: right;
@@ -226,6 +249,65 @@ ul .about-services {
   margin-right: 0;
 }
 
-div .contact-button h2 {
-  width: 70%;
+div.contact-button h2 {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+div.contact-button a {
+  margin-left: -90px;
+}
+
+/* 404 page */
+
+div.page-wrapper {
+  margin-bottom: 150px;
+}
+
+div.error-page-content {
+  display: inline-block;
+}
+
+div.error-page-content h2 {
+  font-size: 32px;
+  color: #45ac9d;
+  margin-left: 260px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  width: 500px;
+}
+
+div.error-page-content {
+  background: url("img/maplost.PNG") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+  height: 225px;
+  width: 225px;
+  margin-top: 200px;
+
+}
+
+div.error-main-content p {
+  font-size: 20px;
+  margin-left: 260px;
+  width: 550px;
+}
+
+/* twitter module */
+
+.widget ul {
+  list-style: none;
+}
+
+ul.tweets {
+  list-style: none;
+  margin-left: 0px;
+}
+img.a-corn {
+  padding: 0px;
+  margin-bottom: 100px;
+}
+
+span.stt-em {
+  margin-left: 8px;
 }

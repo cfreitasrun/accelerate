@@ -48,7 +48,7 @@ get_header(); ?>
 		</ul>
 
 		<h4>Services</h4>
-		
+
 		<ul class="homepage-featured-work">
 		<?php query_posts('posts_per_page=4&post_type=services'); ?>
 	  				<?php while ( have_posts() ) : the_post();
@@ -83,8 +83,22 @@ get_header(); ?>
 			 <a href="<?php the_permalink(); ?>" class="read-more-link">Read More <span>&rsaquo;</span></a>
 		 <?php endwhile; // end of loop. ?>
 		 <?php wp_reset_query(); ?>
-	 </div>
- </div>
- </section>
+	 </div><!--blog post-->
+
+
+<!-- Dynamic Sidebar -->
+	 <div class="recent-tweets">
+		 <h4>Recent Tweets</h4>
+		 <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+			 <div id="secondary" class="widget-area" role="complementary">
+			 		<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			 		<a class="follow-us-link" href="<?php the_permalink(); ?>">Follow Us<span>&rsaquo;
+			 </span></a>
+		   </div>
+		<?php endif; ?>
+	</div><!--tweets-->
+
+</div><!--site content-->
+</section>
 
 <?php get_footer(); ?>
