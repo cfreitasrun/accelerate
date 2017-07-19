@@ -54,6 +54,17 @@ div.menu-pri-container li {
   overflow: hidden;
 }
 
+section.recent-posts h4 {
+  color: #a2a29f;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.0909090909;
+  margin: 0px 0px 10px 320px;
+  position: absolute;
+  text-transform: uppercase;
+  width: 30%;
+}
+
 .blog-post {
   width: 50%;
 }
@@ -74,7 +85,7 @@ div.menu-pri-container li {
 }
 
 .blog-post .read-more-link {
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Montserrat';
   font-weight: bold;
   color: #45ac9d;
@@ -294,6 +305,21 @@ div.error-main-content p {
 }
 
 /* twitter module */
+div.recent-tweets {
+  width: 50%;
+  float: right;
+  margin-top: -200px;
+  top: -90px;
+
+  position: relative;
+}
+
+div.recent-tweets h4 {
+  font-size: 14px;
+  margin: 0px 0px 0px 45px;
+  position: absolute;
+  text-transform: uppercase;
+}
 
 .widget ul {
   list-style: none;
@@ -301,13 +327,18 @@ div.error-main-content p {
 
 ul.tweets {
   list-style: none;
-  margin-left: 0px;
-}
-img.a-corn {
-  padding: 0px;
-  margin-bottom: 100px;
+  margin-left: 20px;
 }
 
-span.stt-em {
-  margin-left: 8px;
+a.follow-us-link {
+  color: #45ac9d;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.0909090909;
+  margin-left: 60px;
+  text-transform: uppercase;
+}
+
+a.follow-us-link span {
+  margin: 5px;
 }

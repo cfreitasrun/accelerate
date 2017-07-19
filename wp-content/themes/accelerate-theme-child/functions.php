@@ -67,7 +67,7 @@
 
  }
 
-// create a dynamic sqlite_udf_decode_binary
+// create a dynamic sidebar //
 function accelerate_theme_child_widget_init() {
     register_sidebar( array(
       'name' =>__( 'Homepage sidebar', 'accelerate-theme-child'),
@@ -80,4 +80,4 @@ function accelerate_theme_child_widget_init() {
     ));
 
   }
-  add_action( 'widget_init', 'accelerate_theme_child_widget_init' );
+  add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
